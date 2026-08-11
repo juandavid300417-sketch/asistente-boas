@@ -1,0 +1,14 @@
+# Tema base. El CSS de app.py refina lo que este archivo no alcanza.
+[theme]
+base = "light"
+primaryColor = "#C80651"          # Carmin Diageo
+backgroundColor = "#FAF8F6"       # Hueso calido
+secondaryBackgroundColor = "#F1EDEA"
+textColor = "#14131A"             # Tinta
+font = "sans serif"
+
+[server]
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false
