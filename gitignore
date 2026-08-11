@@ -1,0 +1,11 @@
+# Datos: NUNCA subir FBL3N ni glosarios al repo
+*.xlsx
+*.xls
+*.csv
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.streamlit/secrets.toml
