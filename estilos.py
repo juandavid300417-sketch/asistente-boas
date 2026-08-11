@@ -77,11 +77,22 @@ h2 {
 
 /* ---------- Encabezado ---------- */
 
-.cabecera {
-    border-left: 3px solid var(--carmin);
-    padding: 0.1rem 0 0.1rem 1.1rem;
-    margin-bottom: 0.4rem;
-}
+.def cabecera():
+    svg = " ".join(MARCA_SVG.split())
+    return (
+        '<div class="cabecera">'
+        '<div class="lockup">'
+        f'{svg}'
+        '<div class="lockup-texto">'
+        '<div class="equipo">Payments <span>LAC</span></div>'
+        '<div class="herramienta">Asistente para BOAS</div>'
+        '</div></div>'
+        '<div class="bajada">'
+        'Compara los textos del FBL3N contra las plantillas del glosario de cada '
+        'pais. <strong>El programa solo recomienda:</strong> la actualizacion del '
+        'documento historico sigue siendo manual.'
+        '</div></div>'
+    )
 
 .cabecera .lockup {
     display: flex;
